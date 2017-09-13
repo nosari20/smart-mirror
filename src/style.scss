@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('/assets/Roboto-Light.ttf');
+}
+
+body{
+    font-family: 'Roboto Light', sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+    .logo{
+        width: 200px;
+        &.full{
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+

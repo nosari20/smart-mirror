@@ -1,0 +1,27 @@
+{% set title = "Hello World !" %}
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TypeScript Starter</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="vendors/weather-icons/css/weather-icons.css">
+    </head>
+    
+    <body>
+
+        
+        {% include 'app/views/header.twig' %}
+
+
+        <div id="app">
+            <weather></weather>
+        </div>
+        
+
+        <script src="js/bundle.js"></script>
+        <!-- Live Reload -->
+        <script src="//localhost:35729/livereload.js"></script>
+    </body>
+</html>
